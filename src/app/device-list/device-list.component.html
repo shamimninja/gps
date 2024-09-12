@@ -1,0 +1,6 @@
+<ion-list>
+  <ion-item *ngFor="let device of devices" (click)="viewDevice(device.id)">
+    {{ device.name }}
+  </ion-item>
+</ion-list>
+
